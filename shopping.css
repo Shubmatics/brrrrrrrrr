@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  
+
+.carousel-item img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    /* Default Styling */
+    
+    font-size: 30px;
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+   
+}
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+ 
+ 
+
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+  }
+  
+  .card {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-right: 30px;
+  }
+
+  .carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    text-align: center;
+    width:100% ;
+  } 
+
+
+
+
+
+
+
+
+

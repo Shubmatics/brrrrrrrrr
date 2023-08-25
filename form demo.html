@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .form-container {
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+    .form-container .form-group {
+      margin-bottom: 15px;
+    }
+    @media (max-width: 600px) {
+  .col{
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <form>
+        <div class="form-row">
+          <div class="col-sm-2 mb-3 mb-sm-0">
+            <label for="text-input">Text:</label>
+          </div>
+          <div class="col-sm">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control mb-3 mb-sm-0" placeholder="Placeholder 1">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control mb-3 mb-sm-0" placeholder="Placeholder 2">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Placeholder 3">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Submit

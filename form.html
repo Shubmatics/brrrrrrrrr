@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haematology</title>
+<link rel="stylesheet" href="form.css">
+<script src="script.js"></script>
+</head>
+<body>
+   <form method="post" action="practice.php">
+  <center>  
+<header>
+    <div>
+    <img src="download.jpeg" width="50">
+    <h1> College Of Medicine </h1>
+    <h2>University Of Ibadan</h2>
+</div>
+    
+</header>
+<select id="menu1" onchange="updateMenu2()">
+   <option value="">SELECT A FACULTY</option>
+   <option value="option1"> BASIC MEDICAL SCIENCES</option>
+   <option value="option2">CLINICAL SCIENCES</option>
+   <option value="option3">PUBLIC HEALTH</option>
+   <option value="option4">DENTISTRY</option>
+ </select>
+ 
+ <select id="menu2">
+   <option value="">Seelct a Department</option>
+ </select>
+ 
+ 
+</center>
+
+   <div class="container">
+    <strong>     <h3 span style="background-color: darkgrey; "> Facilities  Information</h3> </strong>
+ <br>
+    <div class="input">
+      <label for="Facilities"></label>
+         <input type="text" placeholder="Facilities" name="name"  required>
+         <label for="Value"></label>
+         <input type="text" placeholder="Value" name="name"  required>
+         <label for="capacity/Comment"></label>
+         <input type="text" placeholder="Capacity/Comment" name="name"  required>
+    </div>
+
+      <div style="margin-left:-63px; margin-top:60px">
+         <form id="myForm">
+            <div id="labelsContainer"></div>
+            <button type="button" onclick="addLabel()" style="margin-left: 65px;" >Add Facilities</button>
+            
+         </form>
+      </div>
+    
+   
+<div class="button-container">
+<center>
+ <a href="#"> <button type="submit">Submit</button>  </a>
+</center>
+</div>
+</form>
+
+
+</body>
+</html>
